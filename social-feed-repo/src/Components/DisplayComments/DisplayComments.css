@@ -1,0 +1,26 @@
+.comment_list {
+  background-color: blue;
+  margin: 10px;
+  height: 100px;
+  padding-top: 10px;
+  text-align: center;
+  font-size: x-large;
+  border-style: groove;
+  border-radius: 23px;
+  position: relative;
+}
+.button {
+  position: absolute;
+  bottom: 2px;
+  right: 20px;
+  padding: 7px;
+}
+/* .button span.buttone {
+  background: url(icons/likeicon.png) no-repeat;
+} */
+.button:focus {
+  background-color: brown;
+}
+.like-active {
+  background-color: cornflowerblue;
+}
